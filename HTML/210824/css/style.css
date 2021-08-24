@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	vertical-align: middle;
+}
+button {
+	background-color: transparent;
+	border: none;
+}
+input {
+	outline: none;
+	border: none;
+}
+input:focus {
+	outline: none;
+}
+#wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-width: 1320px;
+}
+.flex_align_between {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex_align_start {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.flex_align_end {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* 상단 메뉴 */
+#youtube_top_nav {
+	position: fixed;
+
+	width: 100%;
+	height: 56px;
+	background-color: #212121;
+
+	padding: 0 16px;
+}
+
+#youtube_top_nav .nav_left {
+	height: 56px;
+}
+#youtube_top_nav .nav_left .btn_menu {
+	width: 24px;
+	height: 24px;
+	background-color: yellow;
+}
+#youtube_top_nav .nav_left h1 {
+	margin-left: 16px;
+}
+#youtube_top_nav .nav_left h1 a {
+
+}
+#youtube_top_nav .nav_left h1 img {
+	width: 90px;
+	height: 20px;
+}
+#youtube_top_nav .nav_right {
+	height: 56px;
+}
+#youtube_top_nav .nav_right .btn_menu {
+	width: 40px;
+	height: 40px;
+	margin-right: 16px;
+}
+#youtube_top_nav .nav_right .btn_menu.btn_menu_1 {
+	background-color: grey;
+}
+#youtube_top_nav .nav_right .btn_menu.btn_menu_2 {
+	background-color: yellow;
+}
+#youtube_top_nav .nav_right .btn_login {
+	border: solid 1px #3ea6ff;
+	padding: 10px 12px 8px;
+	font-size: 14px;
+
+	color: #3ea6ff;
+}
+#youtube_top_nav .nav_center {
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+}
+#youtube_top_nav .nav_center .search_wrap {
+	width: 640px;
+	height: 30px;
+
+}
+#youtube_top_nav .nav_center .search_wrap input {
+	width: calc(100% - 65px);
+	height: 30px;
+	border: solid 1px grey;
+	background-color: #212121;
+	
+	color: #ffffff;
+	padding: 2px 6px;
+
+	font-size: 14px;
+}
+#youtube_top_nav .nav_center .search_wrap .btn_search {
+	width: 65px;
+	height: 30px;
+	border: solid 1px grey;
+	background-color: grey;
+}
+#youtube_top_nav .nav_center .btn_voice {
+	width: 24px;
+	height: 24px;
+	background-color: blue;
+
+	margin-left: 16px;
+}
+
+
+
+
+
+/* 왼쪽 사이드 메뉴 */
+#youtube_left_nav {
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: fixed;
+
+	width: 240px;
+	
+	top: 56px;
+	bottom: 0;
+	left: 0;
+	
+	background-color: #212121;
+
+}
+#youtube_left_content {
+	position: absolute;
+	width: 225px;
+	height: 100%;
+	background-color: grey;
+
+
+
+
+
+
+
+
+
+
+
+/* 유튜브 메인 */
+}
+#youtube_main {
+	position: absolute;
+	left: 240px;
+	top: 56px;
+	right: 0;
+	bottom: 0;
+	background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
